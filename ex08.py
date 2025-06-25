@@ -1,4 +1,4 @@
-#8Entrar via teclado, com dois valores distintos. Exibir o maior deles
+#8-Entrar via teclado, com dois valores distintos. Exibir o maior #deles
 
 a = int(input("primeiro valor: "))
 b = int(input("segundo valor: "))

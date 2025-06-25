@@ -1,7 +1,7 @@
-1#4. Entrar com o peso e a altura de uma determinada pessoa. Após a digitação, exibir se esta pessoa está ou não com seu peso ideal. Fórmula: peso/altura².
+#14. Entrar com o peso e a altura de uma determinada pessoa. Após a digitação, exibir se esta pessoa está ou não com seu peso ideal. Fórmula: peso/altura².
 
-peso = float(input("digite seu peso:"))
-altura = float(input("digite sua altura:"))
+peso = float(input("digite seu peso em kg:"))
+altura = float(input("digite sua altura em metro:"))
 
 imc = peso / (altura * altura)
 
@@ -10,5 +10,5 @@ if imc < 20:
 elif 20 <= imc <= 25:
    print("esta no peso ideal")
 
-elif 25 <= imc <= 80:
+else:
    print("sobrepeso")

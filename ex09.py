@@ -1,4 +1,4 @@
- #Entrar via teclado, com dois valores distintos. Exibir o menor deles.
+ #9-Entrar via teclado, com dois valores distintos. Exibir o menor deles.
 
 a = int(input("primeiro valor: "))
 b = int(input("segundo valor: "))
