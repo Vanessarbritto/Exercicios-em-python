@@ -1,12 +1,27 @@
-#27. Faça um algoritmo que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar, imprimir o resultado desta operação. em python
+#28. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem crescente
 
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
-num3 = int(input("Digite o terceiro número: "))
+a = int(input("Digite o primeiro número inteiro: "))
+b = int(input("Digite o segundo número inteiro: "))
+c = int(input("Digite o terceiro número inteiro: "))
 
-if num1 > num2:
-    num1, num2 = num2, num1
-if num1 > num3:
-    num1, num3 = num3, num1
-if num2 > num3:
-    num2, num3 = num3, num2
+if a == b or a == c or b == c:
+    print("Erro: os três números devem ser diferentes.")
+ 
+else:
+    if a < b and a < c:
+        if b < c:
+            print("Ordem crescente:", a, b, c)
+        else:
+            print("Ordem crescente:", a, c, b)
+    elif b < a and b < c:
+        if a < c:
+            print("Ordem crescente:", b, a, c)
+        else:
+            print("Ordem crescente:", b, c, a)
+
+    else:  # c é o menor
+        if a < b:
+            print("Ordem crescente:", c, a, b)
+        else:
+            print("Ordem crescente:", c, b, a)
+
