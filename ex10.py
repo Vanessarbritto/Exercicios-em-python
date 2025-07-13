@@ -3,9 +3,9 @@
 a = int(input("primeiro valor: "))
 b = int(input("segundo valor: "))
 
-if a > b:
-    print("O primeiro valor é menor:")
-elif b > a:
-    print("O segundo valor é menor:")
+if (a > b):
+    print("o primeiro valor é maior")
+elif (b > a):
+    print("O segundo valor é menor")
 else:
     print("Os valores são iguais!")

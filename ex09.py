@@ -3,8 +3,7 @@
 a = int(input("primeiro valor: "))
 b = int(input("segundo valor: "))
 
-if a < b:
+if (a < b):
     print("O primeiro valor é menor:")
-elif b < a:
+else:
     print("O segundo valor é menor:")
-

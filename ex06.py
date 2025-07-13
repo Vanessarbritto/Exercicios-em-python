@@ -7,4 +7,3 @@ quantidade = float(input("digite a quantidade de dolares:"))
 valor_em_reais = cotacao * quantidade
 
 print(f"Valor em reais: R${valor_em_reais:.2f}")
-

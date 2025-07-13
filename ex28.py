@@ -19,7 +19,7 @@ else:
         else:
             print("Ordem crescente:", b, c, a)
 
-    else:  # c é o menor
+    else:
         if a < b:
             print("Ordem crescente:", c, a, b)
         else:
